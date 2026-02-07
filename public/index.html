@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Analytics Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏢 Employee Analytics Dashboard</h1>
+            <p>Database-Driven Performance Tracking System</p>
+        </header>
+
+        <div class="dashboard">
+            <div class="stats">
+                <div class="stat-card">
+                    <h3>Total Employees</h3>
+                    <p id="totalEmployees">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Departments</h3>
+                    <p id="totalDepts">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Active Projects</h3>
+                    <p id="activeProjects">0</p>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <h2>Employee Directory</h2>
+                <table id="employeeTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Department</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody id="employeeTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
