@@ -1,0 +1,12 @@
+Main Dashboard
+http://localhost/employee-analytics-db/public/
+
+Database Admin (phpMyAdmin)
+http://localhost/phpmyadmin
+
+API Endpoint (Employee Data)
+http://localhost/employee-analytics-db/api/get_employees.php
+
+XAMPP Dashboard
+http://localhost/
+
